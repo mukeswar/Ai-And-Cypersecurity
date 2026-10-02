@@ -1,0 +1,133 @@
+dataset,unified_feature,raw_column,available,status
+CSE_CIC_IDS2018,protocol,Protocol,True,mapped
+CSE_CIC_IDS2018,source_port,,False,NOT PUBLISHED by dataset -> NaN
+CSE_CIC_IDS2018,destination_port,Dst Port,True,mapped
+CSE_CIC_IDS2018,flow_duration,Flow Duration,True,mapped
+CSE_CIC_IDS2018,total_forward_packets,Tot Fwd Pkts,True,mapped
+CSE_CIC_IDS2018,total_backward_packets,Tot Bwd Pkts,True,mapped
+CSE_CIC_IDS2018,total_forward_bytes,TotLen Fwd Pkts,True,mapped
+CSE_CIC_IDS2018,total_backward_bytes,TotLen Bwd Pkts,True,mapped
+CSE_CIC_IDS2018,packet_rate,Flow Pkts/s,True,mapped
+CSE_CIC_IDS2018,byte_rate,Flow Byts/s,True,mapped
+CSE_CIC_IDS2018,forward_packet_rate,Fwd Pkts/s,True,mapped
+CSE_CIC_IDS2018,backward_packet_rate,Bwd Pkts/s,True,mapped
+CSE_CIC_IDS2018,forward_packet_length_mean,Fwd Pkt Len Mean,True,mapped
+CSE_CIC_IDS2018,backward_packet_length_mean,Bwd Pkt Len Mean,True,mapped
+CSE_CIC_IDS2018,packet_length_mean,Pkt Len Mean,True,mapped
+CSE_CIC_IDS2018,packet_length_std,Pkt Len Std,True,mapped
+CSE_CIC_IDS2018,packet_length_max,Pkt Len Max,True,mapped
+CSE_CIC_IDS2018,inter_arrival_time_mean,Flow IAT Mean,True,mapped
+CSE_CIC_IDS2018,inter_arrival_time_std,Flow IAT Std,True,mapped
+CSE_CIC_IDS2018,inter_arrival_time_max,Flow IAT Max,True,mapped
+CSE_CIC_IDS2018,forward_iat_mean,Fwd IAT Mean,True,mapped
+CSE_CIC_IDS2018,backward_iat_mean,Bwd IAT Mean,True,mapped
+CSE_CIC_IDS2018,fin_flag_count,FIN Flag Cnt,True,mapped
+CSE_CIC_IDS2018,syn_flag_count,SYN Flag Cnt,True,mapped
+CSE_CIC_IDS2018,rst_flag_count,RST Flag Cnt,True,mapped
+CSE_CIC_IDS2018,psh_flag_count,PSH Flag Cnt,True,mapped
+CSE_CIC_IDS2018,ack_flag_count,ACK Flag Cnt,True,mapped
+CSE_CIC_IDS2018,urg_flag_count,URG Flag Cnt,True,mapped
+CSE_CIC_IDS2018,forward_init_window_bytes,Init Fwd Win Byts,True,mapped
+CSE_CIC_IDS2018,backward_init_window_bytes,Init Bwd Win Byts,True,mapped
+CSE_CIC_IDS2018,down_up_ratio,Down/Up Ratio,True,mapped
+CSE_CIC_IDS2018,active_mean,Active Mean,True,mapped
+CSE_CIC_IDS2018,idle_mean,Idle Mean,True,mapped
+CIC_IDS2017,protocol,Protocol,True,dataset not yet downloaded
+CIC_IDS2017,source_port,Source Port,True,dataset not yet downloaded
+CIC_IDS2017,destination_port,Destination Port,True,dataset not yet downloaded
+CIC_IDS2017,flow_duration,Flow Duration,True,dataset not yet downloaded
+CIC_IDS2017,total_forward_packets,Total Fwd Packets,True,dataset not yet downloaded
+CIC_IDS2017,total_backward_packets,Total Backward Packets,True,dataset not yet downloaded
+CIC_IDS2017,total_forward_bytes,Total Length of Fwd Packets,True,dataset not yet downloaded
+CIC_IDS2017,total_backward_bytes,Total Length of Bwd Packets,True,dataset not yet downloaded
+CIC_IDS2017,packet_rate,Flow Packets/s,True,dataset not yet downloaded
+CIC_IDS2017,byte_rate,Flow Bytes/s,True,dataset not yet downloaded
+CIC_IDS2017,forward_packet_rate,Fwd Packets/s,True,dataset not yet downloaded
+CIC_IDS2017,backward_packet_rate,Bwd Packets/s,True,dataset not yet downloaded
+CIC_IDS2017,forward_packet_length_mean,Fwd Packet Length Mean,True,dataset not yet downloaded
+CIC_IDS2017,backward_packet_length_mean,Bwd Packet Length Mean,True,dataset not yet downloaded
+CIC_IDS2017,packet_length_mean,Packet Length Mean,True,dataset not yet downloaded
+CIC_IDS2017,packet_length_std,Packet Length Std,True,dataset not yet downloaded
+CIC_IDS2017,packet_length_max,Max Packet Length,True,dataset not yet downloaded
+CIC_IDS2017,inter_arrival_time_mean,Flow IAT Mean,True,dataset not yet downloaded
+CIC_IDS2017,inter_arrival_time_std,Flow IAT Std,True,dataset not yet downloaded
+CIC_IDS2017,inter_arrival_time_max,Flow IAT Max,True,dataset not yet downloaded
+CIC_IDS2017,forward_iat_mean,Fwd IAT Mean,True,dataset not yet downloaded
+CIC_IDS2017,backward_iat_mean,Bwd IAT Mean,True,dataset not yet downloaded
+CIC_IDS2017,fin_flag_count,FIN Flag Count,True,dataset not yet downloaded
+CIC_IDS2017,syn_flag_count,SYN Flag Count,True,dataset not yet downloaded
+CIC_IDS2017,rst_flag_count,RST Flag Count,True,dataset not yet downloaded
+CIC_IDS2017,psh_flag_count,PSH Flag Count,True,dataset not yet downloaded
+CIC_IDS2017,ack_flag_count,ACK Flag Count,True,dataset not yet downloaded
+CIC_IDS2017,urg_flag_count,URG Flag Count,True,dataset not yet downloaded
+CIC_IDS2017,forward_init_window_bytes,Init_Win_bytes_forward,True,dataset not yet downloaded
+CIC_IDS2017,backward_init_window_bytes,Init_Win_bytes_backward,True,dataset not yet downloaded
+CIC_IDS2017,down_up_ratio,Down/Up Ratio,True,dataset not yet downloaded
+CIC_IDS2017,active_mean,Active Mean,True,dataset not yet downloaded
+CIC_IDS2017,idle_mean,Idle Mean,True,dataset not yet downloaded
+CIC_DDoS2019,protocol,Protocol,True,dataset not yet downloaded
+CIC_DDoS2019,source_port,Source Port,True,dataset not yet downloaded
+CIC_DDoS2019,destination_port,Destination Port,True,dataset not yet downloaded
+CIC_DDoS2019,flow_duration,Flow Duration,True,dataset not yet downloaded
+CIC_DDoS2019,total_forward_packets,Total Fwd Packets,True,dataset not yet downloaded
+CIC_DDoS2019,total_backward_packets,Total Backward Packets,True,dataset not yet downloaded
+CIC_DDoS2019,total_forward_bytes,Total Length of Fwd Packets,True,dataset not yet downloaded
+CIC_DDoS2019,total_backward_bytes,Total Length of Bwd Packets,True,dataset not yet downloaded
+CIC_DDoS2019,packet_rate,Flow Packets/s,True,dataset not yet downloaded
+CIC_DDoS2019,byte_rate,Flow Bytes/s,True,dataset not yet downloaded
+CIC_DDoS2019,forward_packet_rate,Fwd Packets/s,True,dataset not yet downloaded
+CIC_DDoS2019,backward_packet_rate,Bwd Packets/s,True,dataset not yet downloaded
+CIC_DDoS2019,forward_packet_length_mean,Fwd Packet Length Mean,True,dataset not yet downloaded
+CIC_DDoS2019,backward_packet_length_mean,Bwd Packet Length Mean,True,dataset not yet downloaded
+CIC_DDoS2019,packet_length_mean,Packet Length Mean,True,dataset not yet downloaded
+CIC_DDoS2019,packet_length_std,Packet Length Std,True,dataset not yet downloaded
+CIC_DDoS2019,packet_length_max,Max Packet Length,True,dataset not yet downloaded
+CIC_DDoS2019,inter_arrival_time_mean,Flow IAT Mean,True,dataset not yet downloaded
+CIC_DDoS2019,inter_arrival_time_std,Flow IAT Std,True,dataset not yet downloaded
+CIC_DDoS2019,inter_arrival_time_max,Flow IAT Max,True,dataset not yet downloaded
+CIC_DDoS2019,forward_iat_mean,Fwd IAT Mean,True,dataset not yet downloaded
+CIC_DDoS2019,backward_iat_mean,Bwd IAT Mean,True,dataset not yet downloaded
+CIC_DDoS2019,fin_flag_count,FIN Flag Count,True,dataset not yet downloaded
+CIC_DDoS2019,syn_flag_count,SYN Flag Count,True,dataset not yet downloaded
+CIC_DDoS2019,rst_flag_count,RST Flag Count,True,dataset not yet downloaded
+CIC_DDoS2019,psh_flag_count,PSH Flag Count,True,dataset not yet downloaded
+CIC_DDoS2019,ack_flag_count,ACK Flag Count,True,dataset not yet downloaded
+CIC_DDoS2019,urg_flag_count,URG Flag Count,True,dataset not yet downloaded
+CIC_DDoS2019,forward_init_window_bytes,Init_Win_bytes_forward,True,dataset not yet downloaded
+CIC_DDoS2019,backward_init_window_bytes,Init_Win_bytes_backward,True,dataset not yet downloaded
+CIC_DDoS2019,down_up_ratio,Down/Up Ratio,True,dataset not yet downloaded
+CIC_DDoS2019,active_mean,Active Mean,True,dataset not yet downloaded
+CIC_DDoS2019,idle_mean,Idle Mean,True,dataset not yet downloaded
+UNSW_NB15,protocol,,False,dataset not yet downloaded
+UNSW_NB15,source_port,,False,dataset not yet downloaded
+UNSW_NB15,destination_port,,False,dataset not yet downloaded
+UNSW_NB15,flow_duration,dur,True,dataset not yet downloaded
+UNSW_NB15,total_forward_packets,spkts,True,dataset not yet downloaded
+UNSW_NB15,total_backward_packets,dpkts,True,dataset not yet downloaded
+UNSW_NB15,total_forward_bytes,sbytes,True,dataset not yet downloaded
+UNSW_NB15,total_backward_bytes,dbytes,True,dataset not yet downloaded
+UNSW_NB15,packet_rate,rate,True,dataset not yet downloaded
+UNSW_NB15,byte_rate,,False,dataset not yet downloaded
+UNSW_NB15,forward_packet_rate,,False,dataset not yet downloaded
+UNSW_NB15,backward_packet_rate,,False,dataset not yet downloaded
+UNSW_NB15,forward_packet_length_mean,smean,True,dataset not yet downloaded
+UNSW_NB15,backward_packet_length_mean,dmean,True,dataset not yet downloaded
+UNSW_NB15,packet_length_mean,,False,dataset not yet downloaded
+UNSW_NB15,packet_length_std,,False,dataset not yet downloaded
+UNSW_NB15,packet_length_max,,False,dataset not yet downloaded
+UNSW_NB15,inter_arrival_time_mean,,False,dataset not yet downloaded
+UNSW_NB15,inter_arrival_time_std,,False,dataset not yet downloaded
+UNSW_NB15,inter_arrival_time_max,,False,dataset not yet downloaded
+UNSW_NB15,forward_iat_mean,sinpkt,True,dataset not yet downloaded
+UNSW_NB15,backward_iat_mean,dinpkt,True,dataset not yet downloaded
+UNSW_NB15,fin_flag_count,,False,dataset not yet downloaded
+UNSW_NB15,syn_flag_count,,False,dataset not yet downloaded
+UNSW_NB15,rst_flag_count,,False,dataset not yet downloaded
+UNSW_NB15,psh_flag_count,,False,dataset not yet downloaded
+UNSW_NB15,ack_flag_count,,False,dataset not yet downloaded
+UNSW_NB15,urg_flag_count,,False,dataset not yet downloaded
+UNSW_NB15,forward_init_window_bytes,swin,True,dataset not yet downloaded
+UNSW_NB15,backward_init_window_bytes,dwin,True,dataset not yet downloaded
+UNSW_NB15,down_up_ratio,,False,dataset not yet downloaded
+UNSW_NB15,active_mean,,False,dataset not yet downloaded
+UNSW_NB15,idle_mean,,False,dataset not yet downloaded

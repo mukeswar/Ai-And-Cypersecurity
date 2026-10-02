@@ -1,0 +1,7 @@
+# Large data is reproducible from the scripts and is NOT committed.
+01_raw_data/**/*.csv
+01_raw_data/**/*.zip
+01_raw_data/**/*.part
+**/*.parquet
+06_analysis_ready/**/*_sample.csv
+__pycache__/

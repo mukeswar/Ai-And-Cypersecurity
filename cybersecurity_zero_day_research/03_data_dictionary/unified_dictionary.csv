@@ -1,0 +1,44 @@
+unified_feature,unit,description,CSE_CIC_IDS2018_source_column,CSE_CIC_IDS2018_scale_factor,CIC_IDS2017_source_column,CIC_IDS2017_scale_factor,CIC_DDoS2019_source_column,CIC_DDoS2019_scale_factor,UNSW_NB15_source_column,UNSW_NB15_scale_factor
+protocol,IANA number,Transport protocol number,Protocol,1.0,Protocol,1.0,Protocol,1.0,NOT AVAILABLE (NaN),
+source_port,port,Source transport port,Src Port,1.0,Source Port,1.0,Source Port,1.0,NOT AVAILABLE (NaN),
+destination_port,port,Destination transport port,Dst Port,1.0,Destination Port,1.0,Destination Port,1.0,NOT AVAILABLE (NaN),
+flow_duration,seconds,Flow duration,Flow Duration,1e-06,Flow Duration,1e-06,Flow Duration,1e-06,dur,1
+total_forward_packets,packets,Packets source->destination,Tot Fwd Pkts,1.0,Total Fwd Packets,1.0,Total Fwd Packets,1.0,spkts,1
+total_backward_packets,packets,Packets destination->source,Tot Bwd Pkts,1.0,Total Backward Packets,1.0,Total Backward Packets,1.0,dpkts,1
+total_forward_bytes,bytes,Bytes source->destination (CIC: payload length; UNSW: transaction bytes),TotLen Fwd Pkts,1.0,Total Length of Fwd Packets,1.0,Total Length of Fwd Packets,1.0,sbytes,1
+total_backward_bytes,bytes,Bytes destination->source (CIC: payload length; UNSW: transaction bytes),TotLen Bwd Pkts,1.0,Total Length of Bwd Packets,1.0,Total Length of Bwd Packets,1.0,dbytes,1
+packet_rate,packets/s,Flow packets per second (as published),Flow Pkts/s,1.0,Flow Packets/s,1.0,Flow Packets/s,1.0,rate,1
+byte_rate,bytes/s,Flow bytes per second (as published),Flow Byts/s,1.0,Flow Bytes/s,1.0,Flow Bytes/s,1.0,NOT AVAILABLE (NaN),
+forward_packet_rate,packets/s,Forward packets per second,Fwd Pkts/s,1.0,Fwd Packets/s,1.0,Fwd Packets/s,1.0,NOT AVAILABLE (NaN),
+backward_packet_rate,packets/s,Backward packets per second,Bwd Pkts/s,1.0,Bwd Packets/s,1.0,Bwd Packets/s,1.0,NOT AVAILABLE (NaN),
+forward_packet_length_mean,bytes,Mean forward packet size,Fwd Pkt Len Mean,1.0,Fwd Packet Length Mean,1.0,Fwd Packet Length Mean,1.0,smean,1
+backward_packet_length_mean,bytes,Mean backward packet size,Bwd Pkt Len Mean,1.0,Bwd Packet Length Mean,1.0,Bwd Packet Length Mean,1.0,dmean,1
+packet_length_mean,bytes,Mean packet length over the flow,Pkt Len Mean,1.0,Packet Length Mean,1.0,Packet Length Mean,1.0,NOT AVAILABLE (NaN),
+packet_length_std,bytes,Std. dev. of packet length,Pkt Len Std,1.0,Packet Length Std,1.0,Packet Length Std,1.0,NOT AVAILABLE (NaN),
+packet_length_max,bytes,Max packet length,Pkt Len Max,1.0,Max Packet Length,1.0,Max Packet Length,1.0,NOT AVAILABLE (NaN),
+inter_arrival_time_mean,seconds,Mean inter-arrival time of packets in the flow,Flow IAT Mean,1e-06,Flow IAT Mean,1e-06,Flow IAT Mean,1e-06,NOT AVAILABLE (NaN),
+inter_arrival_time_std,seconds,Std. dev. of inter-arrival time,Flow IAT Std,1e-06,Flow IAT Std,1e-06,Flow IAT Std,1e-06,NOT AVAILABLE (NaN),
+inter_arrival_time_max,seconds,Max inter-arrival time,Flow IAT Max,1e-06,Flow IAT Max,1e-06,Flow IAT Max,1e-06,NOT AVAILABLE (NaN),
+forward_iat_mean,seconds,"Mean forward inter-arrival time (UNSW: sintpkt, ms->s)",Fwd IAT Mean,1e-06,Fwd IAT Mean,1e-06,Fwd IAT Mean,1e-06,sinpkt,0.001
+backward_iat_mean,seconds,"Mean backward inter-arrival time (UNSW: dintpkt, ms->s)",Bwd IAT Mean,1e-06,Bwd IAT Mean,1e-06,Bwd IAT Mean,1e-06,dinpkt,0.001
+fin_flag_count,packets,Packets with TCP FIN,FIN Flag Cnt,1.0,FIN Flag Count,1.0,FIN Flag Count,1.0,NOT AVAILABLE (NaN),
+syn_flag_count,packets,Packets with TCP SYN,SYN Flag Cnt,1.0,SYN Flag Count,1.0,SYN Flag Count,1.0,NOT AVAILABLE (NaN),
+rst_flag_count,packets,Packets with TCP RST,RST Flag Cnt,1.0,RST Flag Count,1.0,RST Flag Count,1.0,NOT AVAILABLE (NaN),
+psh_flag_count,packets,Packets with TCP PSH,PSH Flag Cnt,1.0,PSH Flag Count,1.0,PSH Flag Count,1.0,NOT AVAILABLE (NaN),
+ack_flag_count,packets,Packets with TCP ACK,ACK Flag Cnt,1.0,ACK Flag Count,1.0,ACK Flag Count,1.0,NOT AVAILABLE (NaN),
+urg_flag_count,packets,Packets with TCP URG,URG Flag Cnt,1.0,URG Flag Count,1.0,URG Flag Count,1.0,NOT AVAILABLE (NaN),
+forward_init_window_bytes,bytes,"Initial TCP window, forward (UNSW: swin)",Init Fwd Win Byts,1.0,Init_Win_bytes_forward,1.0,Init_Win_bytes_forward,1.0,swin,1
+backward_init_window_bytes,bytes,"Initial TCP window, backward (UNSW: dwin)",Init Bwd Win Byts,1.0,Init_Win_bytes_backward,1.0,Init_Win_bytes_backward,1.0,dwin,1
+down_up_ratio,ratio,Download/upload ratio,Down/Up Ratio,1.0,Down/Up Ratio,1.0,Down/Up Ratio,1.0,NOT AVAILABLE (NaN),
+active_mean,seconds,Mean time flow was active before idle,Active Mean,1e-06,Active Mean,1e-06,Active Mean,1e-06,NOT AVAILABLE (NaN),
+idle_mean,seconds,Mean time flow was idle before active,Idle Mean,1e-06,Idle Mean,1e-06,Idle Mean,1e-06,NOT AVAILABLE (NaN),
+dataset_source,,Dataset identifier,,,,,,,,
+source_file,,Raw file name (provenance),,,,,,,,
+row_in_file,,0-based data-row position in the raw file (provenance),,,,,,,,
+timestamp,datetime,"Publisher flow timestamp, parsed; as recorded (time zone not stated by publisher)",,,,,,,,
+original_label,,"Publisher label, verbatim",,,,,,,,
+standardized_label,,Harmonised family (label_mapping_table.csv),,,,,,,,
+mapping_confidence,,exact | publisher_category | ambiguous,,,,,,,,
+is_attack,0/1,standardized_label != BENIGN,,,,,,,,
+had_infinite_value,bool,row had +/-Infinity in any raw feature (set to NaN),,,,,,,,
+model_feature_hash,uint64,hash of model-facing unified features (duplicate/leakage audits),,,,,,,,

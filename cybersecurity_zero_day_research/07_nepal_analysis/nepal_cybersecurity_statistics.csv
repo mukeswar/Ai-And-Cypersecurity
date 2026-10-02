@@ -1,0 +1,18 @@
+indicator_id,indicator,value,unit,reference_period,source_organization,source_url,verification_status
+NP-IND-001,Total broadband subscriptions,30828615,subscriptions,end of Feb 2026,Nepal Telecommunications Authority,https://nta.gov.np/uploads/contents/MIS_2082%20Falgun.pdf,search_extract_only
+NP-IND-002,Mobile broadband subscriptions,27368293,subscriptions,end of Feb 2026,Nepal Telecommunications Authority,https://nta.gov.np/uploads/contents/MIS_2082%20Falgun.pdf,search_extract_only
+NP-IND-003,Fixed wired broadband subscriptions,3427794,subscriptions,end of Feb 2026,Nepal Telecommunications Authority,https://nta.gov.np/uploads/contents/MIS_2082%20Falgun.pdf,search_extract_only
+NP-IND-004,Fixed wireless broadband subscriptions,32528,subscriptions,end of Feb 2026,Nepal Telecommunications Authority,https://nta.gov.np/uploads/contents/MIS_2082%20Falgun.pdf,search_extract_only
+NP-IND-005,Total broadband subscriptions,29115957,subscriptions,end of Mar 2025,Nepal Telecommunications Authority,https://nta.gov.np/uploads/contents/MIS%20_Chaitra_%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A7.pdf,search_extract_only
+NP-IND-006,Mobile broadband penetration,87.9,% of population,Ashadh 2082 (mid-Jun to mid-Jul 2025),MEA Tech Watch,https://meatechwatch.com/2025/08/04/nepals-4g-user-base-surpasses-25-6-million-mobile-broadband-penetration-hits-87-9/,search_extract_only
+NP-IND-007,4G users,25600000,"users (approx., 'over 25.6 million')",Ashadh 2082 (mid-Jun to mid-Jul 2025),MEA Tech Watch,https://meatechwatch.com/2025/08/04/nepals-4g-user-base-surpasses-25-6-million-mobile-broadband-penetration-hits-87-9/,search_extract_only
+NP-IND-008,Internet users,16500000,users,start of 2025,DataReportal (Kepios),https://datareportal.com/reports/tag/Nepal,search_extract_only
+NP-IND-009,International internet bandwidth,1342,Gbps,2023,NepaliTelecom,https://www.nepalitelecom.com/international-internet-bandwidth-isps-nepal,search_extract_only
+NP-IND-010,IPv6 capability (national),26.02,% of users,as of 2022-02-01,NepaliTelecom,https://www.nepalitelecom.com/2022/02/use-of-ipv6-growing-in-nepal-ranks-3rd-in-south-asia.html,search_extract_only
+NP-IND-011,Wallet (e-money) users,23460000,users,mid-July 2024,Nepal Rastra Bank,https://www.nrb.org.np/contents/uploads/2025/01/Payment-Oversight-Report-2023-24.pdf,search_extract_only
+NP-IND-012,connectIPS users,1280000,users,mid-July 2024,Nepal Rastra Bank,https://www.nrb.org.np/contents/uploads/2025/01/Payment-Oversight-Report-2023-24.pdf,search_extract_only
+NP-IND-013,Mobile banking customers,24648846,customers,mid-July 2024,Nepal Rastra Bank,https://www.nrb.org.np/contents/uploads/2025/01/Payment-Oversight-Report-2023-24.pdf,search_extract_only
+NP-IND-014,Cybercrime complaints to Nepal Police,19730,complaints,FY 2080/81 (2023/24),Khabarhub,https://english.khabarhub.com/2026/14/563210/,search_extract_only
+NP-IND-015,Cybercrime complaints to Nepal Police,18926,complaints,FY 2081/82 (2024/25),Khabarhub,https://english.khabarhub.com/2026/14/563210/,search_extract_only
+NP-IND-016,Cybercrime complaints to Nepal Police,20526,complaints,FY 2082/83 (2025/26),Khabarhub,https://english.khabarhub.com/2026/14/563210/,search_extract_only
+NP-IND-017,Financial scam/fraud share of cybercrime complaints,40.82,% of complaints,FY 2081/82 (2024/25),The Kathmandu Post,https://kathmandupost.com/national/2025/07/22/nepal-recorded-52-daily-cybercrime-cases-last-fiscal,search_extract_only

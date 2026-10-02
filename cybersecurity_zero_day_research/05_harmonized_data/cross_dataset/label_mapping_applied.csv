@@ -1,0 +1,16 @@
+dataset,original_label,standardized_label,mapping_confidence,rows
+CSE_CIC_IDS2018,Benign,BENIGN,exact,13484708
+CSE_CIC_IDS2018,Bot,BOT,exact,286191
+CSE_CIC_IDS2018,Brute Force -Web,WEB_ATTACK,publisher_category,611
+CSE_CIC_IDS2018,Brute Force -XSS,WEB_ATTACK,publisher_category,230
+CSE_CIC_IDS2018,DDOS attack-HOIC,DDOS,exact,686012
+CSE_CIC_IDS2018,DDOS attack-LOIC-UDP,DDOS,exact,1730
+CSE_CIC_IDS2018,DDoS attacks-LOIC-HTTP,DDOS,exact,576191
+CSE_CIC_IDS2018,DoS attacks-GoldenEye,DOS,exact,41508
+CSE_CIC_IDS2018,DoS attacks-Hulk,DOS,exact,461912
+CSE_CIC_IDS2018,DoS attacks-SlowHTTPTest,DOS,exact,139890
+CSE_CIC_IDS2018,DoS attacks-Slowloris,DOS,exact,10990
+CSE_CIC_IDS2018,FTP-BruteForce,BRUTE_FORCE,exact,193360
+CSE_CIC_IDS2018,Infilteration,INFILTRATION,exact,161934
+CSE_CIC_IDS2018,SQL Injection,WEB_ATTACK,publisher_category,87
+CSE_CIC_IDS2018,SSH-Bruteforce,BRUTE_FORCE,exact,187589

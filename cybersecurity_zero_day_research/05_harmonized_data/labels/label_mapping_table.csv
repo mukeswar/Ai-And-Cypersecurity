@@ -1,0 +1,59 @@
+dataset,original_label_normalised,standardized_label,mapping_confidence,rationale
+*,benign,BENIGN,exact,benign traffic
+UNSW_NB15,normal,BENIGN,exact,UNSW-NB15 uses 'Normal' for benign traffic
+CSE_CIC_IDS2018,dos attacks-goldeneye,DOS,exact,DoS variant
+CSE_CIC_IDS2018,dos attacks-slowloris,DOS,exact,DoS variant
+CSE_CIC_IDS2018,dos attacks-slowhttptest,DOS,exact,DoS variant
+CSE_CIC_IDS2018,dos attacks-hulk,DOS,exact,DoS variant
+CSE_CIC_IDS2018,ddos attacks-loic-http,DDOS,exact,DDoS variant
+CSE_CIC_IDS2018,ddos attack-loic-udp,DDOS,exact,DDoS variant
+CSE_CIC_IDS2018,ddos attack-hoic,DDOS,exact,DDoS variant
+CSE_CIC_IDS2018,ftp-bruteforce,BRUTE_FORCE,exact,FTP credential brute force
+CSE_CIC_IDS2018,ssh-bruteforce,BRUTE_FORCE,exact,SSH credential brute force
+CSE_CIC_IDS2018,brute force -web,WEB_ATTACK,publisher_category,publisher lists it under the 'Web attacks' scenario (DVWA login brute force)
+CSE_CIC_IDS2018,brute force -xss,WEB_ATTACK,publisher_category,publisher 'Web attacks' scenario (XSS)
+CSE_CIC_IDS2018,sql injection,WEB_ATTACK,publisher_category,publisher 'Web attacks' scenario
+CSE_CIC_IDS2018,infilteration,INFILTRATION,exact,publisher spelling 'Infilteration' kept in original_label
+CSE_CIC_IDS2018,bot,BOT,exact,Ares botnet scenario
+CIC_IDS2017,dos hulk,DOS,exact,DoS variant
+CIC_IDS2017,dos goldeneye,DOS,exact,DoS variant
+CIC_IDS2017,dos slowloris,DOS,exact,DoS variant
+CIC_IDS2017,dos slowhttptest,DOS,exact,DoS variant
+CIC_IDS2017,ddos,DDOS,exact,LOIC DDoS
+CIC_IDS2017,portscan,PORT_SCAN,exact,port scan
+CIC_IDS2017,ftp-patator,BRUTE_FORCE,exact,FTP brute force (Patator)
+CIC_IDS2017,ssh-patator,BRUTE_FORCE,exact,SSH brute force (Patator)
+CIC_IDS2017,web attack - brute force,WEB_ATTACK,publisher_category,publisher 'Web Attack' family
+CIC_IDS2017,web attack - xss,WEB_ATTACK,publisher_category,publisher 'Web Attack' family
+CIC_IDS2017,web attack - sql injection,WEB_ATTACK,publisher_category,publisher 'Web Attack' family
+CIC_IDS2017,infiltration,INFILTRATION,exact,infiltration
+CIC_IDS2017,bot,BOT,exact,Ares botnet
+CIC_IDS2017,heartbleed,OTHER,exact,vulnerability exploit; no dedicated family in taxonomy
+CIC_DDoS2019,drdos_dns,DDOS,publisher_category,publisher classifies as reflection/exploitation DDoS
+CIC_DDoS2019,drdos_ldap,DDOS,publisher_category,publisher classifies as reflection/exploitation DDoS
+CIC_DDoS2019,drdos_mssql,DDOS,publisher_category,publisher classifies as reflection/exploitation DDoS
+CIC_DDoS2019,drdos_netbios,DDOS,publisher_category,publisher classifies as reflection/exploitation DDoS
+CIC_DDoS2019,drdos_ntp,DDOS,publisher_category,publisher classifies as reflection/exploitation DDoS
+CIC_DDoS2019,drdos_snmp,DDOS,publisher_category,publisher classifies as reflection/exploitation DDoS
+CIC_DDoS2019,drdos_ssdp,DDOS,publisher_category,publisher classifies as reflection/exploitation DDoS
+CIC_DDoS2019,drdos_udp,DDOS,publisher_category,publisher classifies as reflection/exploitation DDoS
+CIC_DDoS2019,syn,DDOS,publisher_category,publisher classifies as reflection/exploitation DDoS
+CIC_DDoS2019,tftp,DDOS,publisher_category,publisher classifies as reflection/exploitation DDoS
+CIC_DDoS2019,udp-lag,DDOS,publisher_category,publisher classifies as reflection/exploitation DDoS
+CIC_DDoS2019,udplag,DDOS,publisher_category,publisher classifies as reflection/exploitation DDoS
+CIC_DDoS2019,webddos,DDOS,publisher_category,publisher classifies as reflection/exploitation DDoS
+CIC_DDoS2019,portmap,DDOS,publisher_category,publisher classifies as reflection/exploitation DDoS
+CIC_DDoS2019,ldap,DDOS,publisher_category,publisher classifies as reflection/exploitation DDoS
+CIC_DDoS2019,mssql,DDOS,publisher_category,publisher classifies as reflection/exploitation DDoS
+CIC_DDoS2019,netbios,DDOS,publisher_category,publisher classifies as reflection/exploitation DDoS
+CIC_DDoS2019,udp,DDOS,publisher_category,publisher classifies as reflection/exploitation DDoS
+UNSW_NB15,dos,DOS,exact,DoS
+UNSW_NB15,backdoor,OTHER,exact,documented attack without taxonomy family
+UNSW_NB15,backdoors,OTHER,exact,documented attack without taxonomy family
+UNSW_NB15,exploits,OTHER,exact,documented attack without taxonomy family
+UNSW_NB15,shellcode,OTHER,exact,documented attack without taxonomy family
+UNSW_NB15,worms,OTHER,exact,self-propagating malware; not a botnet per publisher
+UNSW_NB15,analysis,UNMAPPED_AMBIGUOUS,ambiguous,"publisher groups port scan, spam and HTML-file penetration: mixed families"
+UNSW_NB15,reconnaissance,UNMAPPED_AMBIGUOUS,ambiguous,includes but is not limited to port scanning; not forced into PORT_SCAN
+UNSW_NB15,fuzzers,UNMAPPED_AMBIGUOUS,ambiguous,fuzzing can be DoS-like or probing
+UNSW_NB15,generic,UNMAPPED_AMBIGUOUS,ambiguous,technique against block ciphers; no family match

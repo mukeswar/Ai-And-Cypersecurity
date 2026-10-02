@@ -1,0 +1,86 @@
+raw_column,clean_column,description,unit,unified_feature,notes,description_source,verified_against_raw
+Flow ID,flow_id,Flow identifier (5-tuple + timestamp),id,,only in GeneratedLabelledFlows/TrafficLabelling CSVs,CICFlowMeter ReadMe (official GitHub),False
+Source IP,source_ip,Source IP address,id,,only in GeneratedLabelledFlows/TrafficLabelling CSVs,CICFlowMeter ReadMe (official GitHub),False
+Source Port,source_port,Source transport port,port,source_port,only in GeneratedLabelledFlows/TrafficLabelling CSVs,CICFlowMeter ReadMe (official GitHub),False
+Destination IP,destination_ip,Destination IP address,id,,only in GeneratedLabelledFlows/TrafficLabelling CSVs,CICFlowMeter ReadMe (official GitHub),False
+Destination Port,destination_port,Destination transport port,port,destination_port,,CICFlowMeter ReadMe (official GitHub),False
+Protocol,protocol,"IP protocol number (6=TCP, 17=UDP, 0=other/unknown)",IANA number,protocol,only in GeneratedLabelledFlows/TrafficLabelling CSVs,CICFlowMeter ReadMe (official GitHub),False
+Timestamp,timestamp,Flow start time as recorded by the publisher,datetime,,only in GeneratedLabelledFlows/TrafficLabelling CSVs,CICFlowMeter ReadMe (official GitHub),False
+Flow Duration,flow_duration,Duration of the flow in Microsecond,microseconds,flow_duration,,CICFlowMeter ReadMe (official GitHub),False
+Total Fwd Packets,total_fwd_packets,Total packets in the forward direction,packets,total_forward_packets,,CICFlowMeter ReadMe (official GitHub),False
+Total Backward Packets,total_backward_packets,Total packets in the backward direction,packets,total_backward_packets,,CICFlowMeter ReadMe (official GitHub),False
+Total Length of Fwd Packets,total_length_of_fwd_packets,Total size of packet in forward direction,bytes,total_forward_bytes,,CICFlowMeter ReadMe (official GitHub),False
+Total Length of Bwd Packets,total_length_of_bwd_packets,Total size of packet in backward direction,bytes,total_backward_bytes,,CICFlowMeter ReadMe (official GitHub),False
+Fwd Packet Length Max,fwd_packet_length_max,Maximum size of packet in forward direction,bytes,,,CICFlowMeter ReadMe (official GitHub),False
+Fwd Packet Length Min,fwd_packet_length_min,Minimum size of packet in forward direction,bytes,,,CICFlowMeter ReadMe (official GitHub),False
+Fwd Packet Length Mean,fwd_packet_length_mean,Mean size of packet in forward direction,bytes,forward_packet_length_mean,,CICFlowMeter ReadMe (official GitHub),False
+Fwd Packet Length Std,fwd_packet_length_std,Standard deviation size of packet in forward direction,bytes,,,CICFlowMeter ReadMe (official GitHub),False
+Bwd Packet Length Max,bwd_packet_length_max,Maximum size of packet in backward direction,bytes,,,CICFlowMeter ReadMe (official GitHub),False
+Bwd Packet Length Min,bwd_packet_length_min,Minimum size of packet in backward direction,bytes,,,CICFlowMeter ReadMe (official GitHub),False
+Bwd Packet Length Mean,bwd_packet_length_mean,Mean size of packet in backward direction,bytes,backward_packet_length_mean,,CICFlowMeter ReadMe (official GitHub),False
+Bwd Packet Length Std,bwd_packet_length_std,Standard deviation size of packet in backward direction,bytes,,,CICFlowMeter ReadMe (official GitHub),False
+Flow Bytes/s,flow_bytes_per_s,Number of flow bytes per second,bytes/s,byte_rate,,CICFlowMeter ReadMe (official GitHub),False
+Flow Packets/s,flow_packets_per_s,Number of flow packets per second,packets/s,packet_rate,,CICFlowMeter ReadMe (official GitHub),False
+Flow IAT Mean,flow_iat_mean,Mean time between two packets sent in the flow,microseconds,inter_arrival_time_mean,,CICFlowMeter ReadMe (official GitHub),False
+Flow IAT Std,flow_iat_std,Standard deviation time between two packets sent in the flow,microseconds,inter_arrival_time_std,,CICFlowMeter ReadMe (official GitHub),False
+Flow IAT Max,flow_iat_max,Maximum time between two packets sent in the flow,microseconds,inter_arrival_time_max,,CICFlowMeter ReadMe (official GitHub),False
+Flow IAT Min,flow_iat_min,Minimum time between two packets sent in the flow,microseconds,,,CICFlowMeter ReadMe (official GitHub),False
+Fwd IAT Total,fwd_iat_total,Total time between two packets sent in the forward direction,microseconds,,,CICFlowMeter ReadMe (official GitHub),False
+Fwd IAT Mean,fwd_iat_mean,Mean time between two packets sent in the forward direction,microseconds,forward_iat_mean,,CICFlowMeter ReadMe (official GitHub),False
+Fwd IAT Std,fwd_iat_std,Standard deviation time between two packets sent in the forward direction,microseconds,,,CICFlowMeter ReadMe (official GitHub),False
+Fwd IAT Max,fwd_iat_max,Maximum time between two packets sent in the forward direction,microseconds,,,CICFlowMeter ReadMe (official GitHub),False
+Fwd IAT Min,fwd_iat_min,Minimum time between two packets sent in the forward direction,microseconds,,,CICFlowMeter ReadMe (official GitHub),False
+Bwd IAT Total,bwd_iat_total,Total time between two packets sent in the backward direction,microseconds,,,CICFlowMeter ReadMe (official GitHub),False
+Bwd IAT Mean,bwd_iat_mean,Mean time between two packets sent in the backward direction,microseconds,backward_iat_mean,,CICFlowMeter ReadMe (official GitHub),False
+Bwd IAT Std,bwd_iat_std,Standard deviation time between two packets sent in the backward direction,microseconds,,,CICFlowMeter ReadMe (official GitHub),False
+Bwd IAT Max,bwd_iat_max,Maximum time between two packets sent in the backward direction,microseconds,,,CICFlowMeter ReadMe (official GitHub),False
+Bwd IAT Min,bwd_iat_min,Minimum time between two packets sent in the backward direction,microseconds,,,CICFlowMeter ReadMe (official GitHub),False
+Fwd PSH Flags,fwd_psh_flags,Times PSH flag set in forward packets (0 for UDP),count,,,CICFlowMeter ReadMe (official GitHub),False
+Bwd PSH Flags,bwd_psh_flags,Times PSH flag set in backward packets (0 for UDP),count,,,CICFlowMeter ReadMe (official GitHub),False
+Fwd URG Flags,fwd_urg_flags,Times URG flag set in forward packets (0 for UDP),count,,,CICFlowMeter ReadMe (official GitHub),False
+Bwd URG Flags,bwd_urg_flags,Times URG flag set in backward packets (0 for UDP),count,,,CICFlowMeter ReadMe (official GitHub),False
+Fwd Header Length,fwd_header_length,Total bytes used for headers in the forward direction,bytes,,,CICFlowMeter ReadMe (official GitHub),False
+Bwd Header Length,bwd_header_length,Total bytes used for headers in the backward direction,bytes,,,CICFlowMeter ReadMe (official GitHub),False
+Fwd Packets/s,fwd_packets_per_s,Number of forward packets per second,packets/s,forward_packet_rate,,CICFlowMeter ReadMe (official GitHub),False
+Bwd Packets/s,bwd_packets_per_s,Number of backward packets per second,packets/s,backward_packet_rate,,CICFlowMeter ReadMe (official GitHub),False
+Min Packet Length,min_packet_length,Minimum length of a packet,bytes,,,CICFlowMeter ReadMe (official GitHub),False
+Max Packet Length,max_packet_length,Maximum length of a packet,bytes,packet_length_max,,CICFlowMeter ReadMe (official GitHub),False
+Packet Length Mean,packet_length_mean,Mean length of a packet,bytes,packet_length_mean,,CICFlowMeter ReadMe (official GitHub),False
+Packet Length Std,packet_length_std,Standard deviation length of a packet,bytes,packet_length_std,,CICFlowMeter ReadMe (official GitHub),False
+Packet Length Variance,packet_length_variance,Variance length of a packet,bytes^2,,,CICFlowMeter ReadMe (official GitHub),False
+FIN Flag Count,fin_flag_count,Number of packets with FIN,packets,fin_flag_count,,CICFlowMeter ReadMe (official GitHub),False
+SYN Flag Count,syn_flag_count,Number of packets with SYN,packets,syn_flag_count,,CICFlowMeter ReadMe (official GitHub),False
+RST Flag Count,rst_flag_count,Number of packets with RST,packets,rst_flag_count,,CICFlowMeter ReadMe (official GitHub),False
+PSH Flag Count,psh_flag_count,Number of packets with PUSH,packets,psh_flag_count,,CICFlowMeter ReadMe (official GitHub),False
+ACK Flag Count,ack_flag_count,Number of packets with ACK,packets,ack_flag_count,,CICFlowMeter ReadMe (official GitHub),False
+URG Flag Count,urg_flag_count,Number of packets with URG,packets,urg_flag_count,,CICFlowMeter ReadMe (official GitHub),False
+CWE Flag Count,cwe_flag_count,Number of packets with CWR (publisher column spelled 'CWE'),packets,,,CICFlowMeter ReadMe (official GitHub),False
+ECE Flag Count,ece_flag_count,Number of packets with ECE,packets,,,CICFlowMeter ReadMe (official GitHub),False
+Down/Up Ratio,down_per_up_ratio,Download and upload ratio,ratio,down_up_ratio,,CICFlowMeter ReadMe (official GitHub),False
+Average Packet Size,average_packet_size,Average size of packet,bytes,,,CICFlowMeter ReadMe (official GitHub),False
+Avg Fwd Segment Size,avg_fwd_segment_size,Average size observed in the forward direction,bytes,,,CICFlowMeter ReadMe (official GitHub),False
+Avg Bwd Segment Size,avg_bwd_segment_size,Average size observed in the backward direction,bytes,,,CICFlowMeter ReadMe (official GitHub),False
+Fwd Avg Bytes/Bulk,fwd_avg_bytes_per_bulk,Average number of bytes bulk rate in the forward direction,bytes,,,CICFlowMeter ReadMe (official GitHub),False
+Fwd Avg Packets/Bulk,fwd_avg_packets_per_bulk,Average number of packets bulk rate in the forward direction,packets,,,CICFlowMeter ReadMe (official GitHub),False
+Fwd Avg Bulk Rate,fwd_avg_bulk_rate,Average number of bulk rate in the forward direction,rate,,,CICFlowMeter ReadMe (official GitHub),False
+Bwd Avg Bytes/Bulk,bwd_avg_bytes_per_bulk,Average number of bytes bulk rate in the backward direction,bytes,,,CICFlowMeter ReadMe (official GitHub),False
+Bwd Avg Packets/Bulk,bwd_avg_packets_per_bulk,Average number of packets bulk rate in the backward direction,packets,,,CICFlowMeter ReadMe (official GitHub),False
+Bwd Avg Bulk Rate,bwd_avg_bulk_rate,Average number of bulk rate in the backward direction,rate,,,CICFlowMeter ReadMe (official GitHub),False
+Subflow Fwd Packets,subflow_fwd_packets,Average number of packets in a sub flow in the forward direction,packets,,,CICFlowMeter ReadMe (official GitHub),False
+Subflow Fwd Bytes,subflow_fwd_bytes,Average number of bytes in a sub flow in the forward direction,bytes,,,CICFlowMeter ReadMe (official GitHub),False
+Subflow Bwd Packets,subflow_bwd_packets,Average number of packets in a sub flow in the backward direction,packets,,,CICFlowMeter ReadMe (official GitHub),False
+Subflow Bwd Bytes,subflow_bwd_bytes,Average number of bytes in a sub flow in the backward direction,bytes,,,CICFlowMeter ReadMe (official GitHub),False
+Init_Win_bytes_forward,init_win_bytes_forward,"Bytes sent in initial window, forward (-1 = not available)",bytes,forward_init_window_bytes,,CICFlowMeter ReadMe (official GitHub),False
+Init_Win_bytes_backward,init_win_bytes_backward,"Bytes sent in initial window, backward (-1 = not available)",bytes,backward_init_window_bytes,,CICFlowMeter ReadMe (official GitHub),False
+act_data_pkt_fwd,act_data_pkt_fwd,"Packets with >=1 byte of TCP payload, forward",packets,,,CICFlowMeter ReadMe (official GitHub),False
+min_seg_size_forward,min_seg_size_forward,Minimum segment size observed in the forward direction,bytes,,,CICFlowMeter ReadMe (official GitHub),False
+Active Mean,active_mean,Mean time a flow was active before becoming idle,microseconds,active_mean,,CICFlowMeter ReadMe (official GitHub),False
+Active Std,active_std,Std. dev. time a flow was active before becoming idle,microseconds,,,CICFlowMeter ReadMe (official GitHub),False
+Active Max,active_max,Maximum time a flow was active before becoming idle,microseconds,,,CICFlowMeter ReadMe (official GitHub),False
+Active Min,active_min,Minimum time a flow was active before becoming idle,microseconds,,,CICFlowMeter ReadMe (official GitHub),False
+Idle Mean,idle_mean,Mean time a flow was idle before becoming active,microseconds,idle_mean,,CICFlowMeter ReadMe (official GitHub),False
+Idle Std,idle_std,Std. dev. time a flow was idle before becoming active,microseconds,,,CICFlowMeter ReadMe (official GitHub),False
+Idle Max,idle_max,Maximum time a flow was idle before becoming active,microseconds,,,CICFlowMeter ReadMe (official GitHub),False
+Idle Min,idle_min,Minimum time a flow was idle before becoming active,microseconds,,,CICFlowMeter ReadMe (official GitHub),False
+Label,label,Publisher class label (kept verbatim as original_label),category,,,CICFlowMeter ReadMe (official GitHub),False
+Fwd Header Length.1,fwd_header_length_1,Duplicate of Fwd Header Length published by CIC,bytes,,publisher-specific column,publisher files (expected),False

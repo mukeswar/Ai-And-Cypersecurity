@@ -1,0 +1,29 @@
+dataset,file_name,original_label,count
+CSE_CIC_IDS2018,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Benign,762384
+CSE_CIC_IDS2018,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Bot,286191
+CSE_CIC_IDS2018,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Benign,446772
+CSE_CIC_IDS2018,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,DoS attacks-Hulk,461912
+CSE_CIC_IDS2018,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,DoS attacks-SlowHTTPTest,139890
+CSE_CIC_IDS2018,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Benign,1048009
+CSE_CIC_IDS2018,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Brute Force -Web,362
+CSE_CIC_IDS2018,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Brute Force -XSS,151
+CSE_CIC_IDS2018,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,SQL Injection,53
+CSE_CIC_IDS2018,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Benign,7372557
+CSE_CIC_IDS2018,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,DDoS attacks-LOIC-HTTP,576191
+CSE_CIC_IDS2018,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Benign,238037
+CSE_CIC_IDS2018,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Infilteration,93063
+CSE_CIC_IDS2018,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Benign,996077
+CSE_CIC_IDS2018,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,DoS attacks-GoldenEye,41508
+CSE_CIC_IDS2018,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,DoS attacks-Slowloris,10990
+CSE_CIC_IDS2018,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Benign,1048213
+CSE_CIC_IDS2018,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Brute Force -Web,249
+CSE_CIC_IDS2018,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Brute Force -XSS,79
+CSE_CIC_IDS2018,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,SQL Injection,34
+CSE_CIC_IDS2018,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Benign,667626
+CSE_CIC_IDS2018,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,FTP-BruteForce,193360
+CSE_CIC_IDS2018,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,SSH-Bruteforce,187589
+CSE_CIC_IDS2018,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Benign,360833
+CSE_CIC_IDS2018,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,DDOS attack-HOIC,686012
+CSE_CIC_IDS2018,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,DDOS attack-LOIC-UDP,1730
+CSE_CIC_IDS2018,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Benign,544200
+CSE_CIC_IDS2018,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Infilteration,68871

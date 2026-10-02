@@ -1,0 +1,62 @@
+{
+  "withheld_families": [
+    "BOT"
+  ],
+  "terminology": "unseen-attack simulation (zero-day-like); NOT real zero-day attacks",
+  "training_classes": [
+    "BENIGN",
+    "BRUTE_FORCE",
+    "DDOS",
+    "DOS",
+    "INFILTRATION",
+    "WEB_ATTACK"
+  ],
+  "validation_classes": [
+    "BENIGN",
+    "BRUTE_FORCE",
+    "DDOS",
+    "DOS",
+    "INFILTRATION",
+    "WEB_ATTACK"
+  ],
+  "testing_classes": [
+    "BENIGN",
+    "BOT",
+    "BRUTE_FORCE",
+    "DDOS",
+    "DOS",
+    "INFILTRATION",
+    "WEB_ATTACK"
+  ],
+  "counts": {
+    "train": {
+      "BENIGN": 9439291,
+      "DDOS": 884752,
+      "DOS": 458008,
+      "BRUTE_FORCE": 266664,
+      "INFILTRATION": 113353,
+      "WEB_ATTACK": 647
+    },
+    "validation": {
+      "BENIGN": 1538903,
+      "DDOS": 87918,
+      "DOS": 23695,
+      "INFILTRATION": 18906,
+      "BRUTE_FORCE": 14075,
+      "WEB_ATTACK": 127
+    },
+    "test": {
+      "BENIGN": 1561714,
+      "BOT": 286191,
+      "DDOS": 88776,
+      "DOS": 22653,
+      "INFILTRATION": 17128,
+      "BRUTE_FORCE": 14088,
+      "WEB_ATTACK": 121
+    }
+  },
+  "removed_cross_split_duplicates": {
+    "validation": 708390,
+    "test": 687529
+  }
+}

@@ -1,0 +1,300 @@
+{
+  "1": {
+    "role": "initial traffic distribution",
+    "capture_days": [
+      "2018-02-14",
+      "2018-02-15"
+    ],
+    "period": {
+      "train": [
+        "2018-02-14 08:28:20",
+        "2018-02-15 13:52:53"
+      ],
+      "validation": [
+        "2018-02-14 11:55:57",
+        "2018-02-15 15:32:23"
+      ],
+      "test": [
+        "2018-02-14 11:58:41",
+        "2018-02-15 17:54:44"
+      ]
+    },
+    "classes": [
+      "BENIGN",
+      "BRUTE_FORCE",
+      "DOS"
+    ],
+    "new_classes": [
+      "BENIGN",
+      "BRUTE_FORCE",
+      "DOS"
+    ],
+    "previously_observed": [],
+    "original_label_variants": [
+      "Benign",
+      "DoS attacks-GoldenEye",
+      "DoS attacks-Slowloris",
+      "FTP-BruteForce",
+      "SSH-Bruteforce"
+    ],
+    "samples": {
+      "train": 1468002,
+      "validation": 219076,
+      "test": 222852
+    },
+    "class_counts": {
+      "train": {
+        "BENIGN": 1164591,
+        "BRUTE_FORCE": 266664,
+        "DOS": 36747
+      },
+      "validation": {
+        "BENIGN": 197282,
+        "BRUTE_FORCE": 14075,
+        "DOS": 7719
+      },
+      "test": {
+        "BENIGN": 200929,
+        "BRUTE_FORCE": 14089,
+        "DOS": 7834
+      }
+    },
+    "removed_val_test_duplicates_of_cumulative_train": 187215
+  },
+  "2": {
+    "role": "new attack distribution (new DoS variants + DDoS)",
+    "capture_days": [
+      "2018-02-16",
+      "2018-02-20"
+    ],
+    "period": {
+      "train": [
+        "2018-02-16 08:26:55",
+        "2018-02-20 14:41:06"
+      ],
+      "validation": [
+        "2018-02-16 10:43:31",
+        "2018-02-20 16:00:33"
+      ],
+      "test": [
+        "2018-02-16 13:48:11",
+        "2018-02-20 17:59:59"
+      ]
+    },
+    "classes": [
+      "BENIGN",
+      "DDOS",
+      "DOS"
+    ],
+    "new_classes": [
+      "DDOS"
+    ],
+    "previously_observed": [
+      "BENIGN",
+      "DOS"
+    ],
+    "original_label_variants": [
+      "Benign",
+      "DDoS attacks-LOIC-HTTP",
+      "DoS attacks-Hulk",
+      "DoS attacks-SlowHTTPTest"
+    ],
+    "samples": {
+      "train": 6298123,
+      "validation": 967482,
+      "test": 989517
+    },
+    "class_counts": {
+      "train": {
+        "BENIGN": 5473529,
+        "DOS": 421261,
+        "DDOS": 403333
+      },
+      "validation": {
+        "BENIGN": 865238,
+        "DDOS": 86268,
+        "DOS": 15976
+      },
+      "test": {
+        "BENIGN": 887269,
+        "DDOS": 86278,
+        "DOS": 15970
+      }
+    },
+    "removed_val_test_duplicates_of_cumulative_train": 742200
+  },
+  "3": {
+    "role": "evolving traffic (new DDoS variant) + new family WEB_ATTACK",
+    "capture_days": [
+      "2018-02-21",
+      "2018-02-22",
+      "2018-02-23"
+    ],
+    "period": {
+      "train": [
+        "2018-02-21 08:32:54",
+        "2018-02-23 15:15:19"
+      ],
+      "validation": [
+        "2018-02-21 10:33:00",
+        "2018-02-23 15:51:48"
+      ],
+      "test": [
+        "2018-02-21 10:37:34",
+        "2018-02-23 17:30:46"
+      ]
+    },
+    "classes": [
+      "BENIGN",
+      "DDOS",
+      "WEB_ATTACK"
+    ],
+    "new_classes": [
+      "WEB_ATTACK"
+    ],
+    "previously_observed": [
+      "BENIGN",
+      "DDOS"
+    ],
+    "original_label_variants": [
+      "Benign",
+      "Brute Force -Web",
+      "Brute Force -XSS",
+      "DDOS attack-HOIC",
+      "DDOS attack-LOIC-UDP",
+      "SQL Injection"
+    ],
+    "samples": {
+      "train": 2202004,
+      "validation": 304477,
+      "test": 310067
+    },
+    "class_counts": {
+      "train": {
+        "BENIGN": 1719938,
+        "DDOS": 481419,
+        "WEB_ATTACK": 647
+      },
+      "validation": {
+        "BENIGN": 302700,
+        "DDOS": 1650,
+        "WEB_ATTACK": 127
+      },
+      "test": {
+        "BENIGN": 307000,
+        "DDOS": 2944,
+        "WEB_ATTACK": 123
+      }
+    },
+    "removed_val_test_duplicates_of_cumulative_train": 329168
+  },
+  "4": {
+    "role": "new attack family INFILTRATION",
+    "capture_days": [
+      "2018-02-28",
+      "2018-03-01"
+    ],
+    "period": {
+      "train": [
+        "2018-02-28 08:21:58",
+        "2018-03-01 14:42:15"
+      ],
+      "validation": [
+        "2018-02-28 13:53:41",
+        "2018-03-01 16:14:01"
+      ],
+      "test": [
+        "2018-02-28 14:16:47",
+        "2018-03-01 17:45:28"
+      ]
+    },
+    "classes": [
+      "BENIGN",
+      "INFILTRATION"
+    ],
+    "new_classes": [
+      "INFILTRATION"
+    ],
+    "previously_observed": [
+      "BENIGN"
+    ],
+    "original_label_variants": [
+      "Benign",
+      "Infilteration"
+    ],
+    "samples": {
+      "train": 660918,
+      "validation": 107282,
+      "test": 113104
+    },
+    "class_counts": {
+      "train": {
+        "BENIGN": 547565,
+        "INFILTRATION": 113353
+      },
+      "validation": {
+        "BENIGN": 87667,
+        "INFILTRATION": 19615
+      },
+      "test": {
+        "BENIGN": 94871,
+        "INFILTRATION": 18233
+      }
+    },
+    "removed_val_test_duplicates_of_cumulative_train": 62867
+  },
+  "5": {
+    "role": "final unseen-attack evaluation (BOT never seen before)",
+    "capture_days": [
+      "2018-03-02"
+    ],
+    "period": {
+      "train": [
+        "2018-03-02 08:46:33",
+        "2018-03-02 14:42:24"
+      ],
+      "validation": [
+        "2018-03-02 14:28:30",
+        "2018-03-02 16:05:47"
+      ],
+      "test": [
+        "2018-03-02 15:34:38",
+        "2018-03-02 17:30:18"
+      ]
+    },
+    "classes": [
+      "BENIGN",
+      "BOT"
+    ],
+    "new_classes": [
+      "BOT"
+    ],
+    "previously_observed": [
+      "BENIGN"
+    ],
+    "original_label_variants": [
+      "Benign",
+      "Bot"
+    ],
+    "samples": {
+      "train": 734001,
+      "validation": 119857,
+      "test": 121821
+    },
+    "class_counts": {
+      "train": {
+        "BENIGN": 533668,
+        "BOT": 200333
+      },
+      "validation": {
+        "BENIGN": 98344,
+        "BOT": 21513
+      },
+      "test": {
+        "BENIGN": 100197,
+        "BOT": 21624
+      }
+    },
+    "removed_val_test_duplicates_of_cumulative_train": 72896
+  }
+}

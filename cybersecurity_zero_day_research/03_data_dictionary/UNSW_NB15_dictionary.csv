@@ -1,0 +1,46 @@
+raw_column,clean_column,description,unit,unified_feature,description_source,verified_against_raw
+id,id,Record identifier,id,,UNSW-NB15 publisher feature list (NUSW-NB15_features.csv),False
+dur,dur,Record total duration,seconds,flow_duration,UNSW-NB15 publisher feature list (NUSW-NB15_features.csv),False
+proto,proto,Transaction protocol,category,,UNSW-NB15 publisher feature list (NUSW-NB15_features.csv),False
+service,service,"Application service (http, ftp, dns, ... or '-')",category,,UNSW-NB15 publisher feature list (NUSW-NB15_features.csv),False
+state,state,"Protocol state (e.g. FIN, CON, INT)",category,,UNSW-NB15 publisher feature list (NUSW-NB15_features.csv),False
+spkts,spkts,Source to destination packet count,packets,total_forward_packets,UNSW-NB15 publisher feature list (NUSW-NB15_features.csv),False
+dpkts,dpkts,Destination to source packet count,packets,total_backward_packets,UNSW-NB15 publisher feature list (NUSW-NB15_features.csv),False
+sbytes,sbytes,Source to destination transaction bytes,bytes,total_forward_bytes,UNSW-NB15 publisher feature list (NUSW-NB15_features.csv),False
+dbytes,dbytes,Destination to source transaction bytes,bytes,total_backward_bytes,UNSW-NB15 publisher feature list (NUSW-NB15_features.csv),False
+rate,rate,Packets per second (partitioned sets only),packets/s,packet_rate,UNSW-NB15 publisher feature list (NUSW-NB15_features.csv),False
+sttl,sttl,Source to destination time to live,hops,,UNSW-NB15 publisher feature list (NUSW-NB15_features.csv),False
+dttl,dttl,Destination to source time to live,hops,,UNSW-NB15 publisher feature list (NUSW-NB15_features.csv),False
+sload,sload,Source bits per second,bits/s,,UNSW-NB15 publisher feature list (NUSW-NB15_features.csv),False
+dload,dload,Destination bits per second,bits/s,,UNSW-NB15 publisher feature list (NUSW-NB15_features.csv),False
+sloss,sloss,Source packets retransmitted or dropped,packets,,UNSW-NB15 publisher feature list (NUSW-NB15_features.csv),False
+dloss,dloss,Destination packets retransmitted or dropped,packets,,UNSW-NB15 publisher feature list (NUSW-NB15_features.csv),False
+sinpkt,sinpkt,Source interpacket arrival time,milliseconds,forward_iat_mean,UNSW-NB15 publisher feature list (NUSW-NB15_features.csv),False
+dinpkt,dinpkt,Destination interpacket arrival time,milliseconds,backward_iat_mean,UNSW-NB15 publisher feature list (NUSW-NB15_features.csv),False
+sjit,sjit,Source jitter,milliseconds,,UNSW-NB15 publisher feature list (NUSW-NB15_features.csv),False
+djit,djit,Destination jitter,milliseconds,,UNSW-NB15 publisher feature list (NUSW-NB15_features.csv),False
+swin,swin,Source TCP window advertisement,bytes,forward_init_window_bytes,UNSW-NB15 publisher feature list (NUSW-NB15_features.csv),False
+stcpb,stcpb,Source TCP base sequence number,number,,UNSW-NB15 publisher feature list (NUSW-NB15_features.csv),False
+dtcpb,dtcpb,Destination TCP base sequence number,number,,UNSW-NB15 publisher feature list (NUSW-NB15_features.csv),False
+dwin,dwin,Destination TCP window advertisement,bytes,backward_init_window_bytes,UNSW-NB15 publisher feature list (NUSW-NB15_features.csv),False
+tcprtt,tcprtt,TCP connection setup round-trip time (synack + ackdat),seconds,,UNSW-NB15 publisher feature list (NUSW-NB15_features.csv),False
+synack,synack,TCP setup time between SYN and SYN_ACK,seconds,,UNSW-NB15 publisher feature list (NUSW-NB15_features.csv),False
+ackdat,ackdat,TCP setup time between SYN_ACK and ACK,seconds,,UNSW-NB15 publisher feature list (NUSW-NB15_features.csv),False
+smean,smean,Mean of flow packet size transmitted by source,bytes,forward_packet_length_mean,UNSW-NB15 publisher feature list (NUSW-NB15_features.csv),False
+dmean,dmean,Mean of flow packet size transmitted by destination,bytes,backward_packet_length_mean,UNSW-NB15 publisher feature list (NUSW-NB15_features.csv),False
+trans_depth,trans_depth,Pipelined depth into the connection of HTTP request/response,count,,UNSW-NB15 publisher feature list (NUSW-NB15_features.csv),False
+response_body_len,response_body_len,Size of data transferred from server's HTTP service,bytes,,UNSW-NB15 publisher feature list (NUSW-NB15_features.csv),False
+ct_srv_src,ct_srv_src,Connections with same service and source address in last 100 connections,count,,UNSW-NB15 publisher feature list (NUSW-NB15_features.csv),False
+ct_state_ttl,ct_state_ttl,Number per state according to specific range of source/destination TTL,count,,UNSW-NB15 publisher feature list (NUSW-NB15_features.csv),False
+ct_dst_ltm,ct_dst_ltm,Connections of same destination address in last 100 connections,count,,UNSW-NB15 publisher feature list (NUSW-NB15_features.csv),False
+ct_src_dport_ltm,ct_src_dport_ltm,Connections of same source address and destination port in last 100 connections,count,,UNSW-NB15 publisher feature list (NUSW-NB15_features.csv),False
+ct_dst_sport_ltm,ct_dst_sport_ltm,Connections of same destination address and source port in last 100 connections,count,,UNSW-NB15 publisher feature list (NUSW-NB15_features.csv),False
+ct_dst_src_ltm,ct_dst_src_ltm,Connections of same source and destination address in last 100 connections,count,,UNSW-NB15 publisher feature list (NUSW-NB15_features.csv),False
+is_ftp_login,is_ftp_login,1 if FTP session accessed by user and password,binary,,UNSW-NB15 publisher feature list (NUSW-NB15_features.csv),False
+ct_ftp_cmd,ct_ftp_cmd,Number of flows with a command in FTP session,count,,UNSW-NB15 publisher feature list (NUSW-NB15_features.csv),False
+ct_flw_http_mthd,ct_flw_http_mthd,Number of flows with methods such as GET and POST in HTTP service,count,,UNSW-NB15 publisher feature list (NUSW-NB15_features.csv),False
+ct_src_ltm,ct_src_ltm,Connections of same source address in last 100 connections,count,,UNSW-NB15 publisher feature list (NUSW-NB15_features.csv),False
+ct_srv_dst,ct_srv_dst,Connections with same service and destination address in last 100 connections,count,,UNSW-NB15 publisher feature list (NUSW-NB15_features.csv),False
+is_sm_ips_ports,is_sm_ips_ports,1 if source/destination IP and port are equal,binary,,UNSW-NB15 publisher feature list (NUSW-NB15_features.csv),False
+attack_cat,attack_cat,Attack category name (kept verbatim as original_label),category,,UNSW-NB15 publisher feature list (NUSW-NB15_features.csv),False
+label,label,"0 normal, 1 attack (publisher binary label)",binary,,UNSW-NB15 publisher feature list (NUSW-NB15_features.csv),False
